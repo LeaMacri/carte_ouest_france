@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d66ca88fc491c9111eec3fb7362d568b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d66ca88fc491c9111eec3fb7362d568b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d66ca88fc491c9111eec3fb7362d568b = L.map(
+                "map_d66ca88fc491c9111eec3fb7362d568b",
+                {
+                    center: [47.5, -1.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b51a71f7664b7e4f60d177d9bb62ec51 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b51a71f7664b7e4f60d177d9bb62ec51.addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+            var circle_marker_36471e1882178bbcce70a9945af08a4d = L.circleMarker(
+                [47.2264138329228, -1.546816705030824],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.88854381999832, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_76b090533a2f1cc99f8eb6865fa38571 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_969f20acffe5453dcb66fd8bb13f046f = $(`<div id="html_969f20acffe5453dcb66fd8bb13f046f" style="width: 100.0%; height: 100.0%;"><b>Clinique Breteche</b><br>320 interventions</div>`)[0];
+                popup_76b090533a2f1cc99f8eb6865fa38571.setContent(html_969f20acffe5453dcb66fd8bb13f046f);
+            
+        
+
+        circle_marker_36471e1882178bbcce70a9945af08a4d.bindPopup(popup_76b090533a2f1cc99f8eb6865fa38571)
+        ;
+
+        
+    
+    
+            circle_marker_36471e1882178bbcce70a9945af08a4d.bindTooltip(
+                `<div>
+                     320 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_31e96494b316a340bcc87fc75b34051e = L.circleMarker(
+                [47.23656440920295, -1.6393824896878124],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.677078252031311, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_3477c8f680683b0e63f430642ac5ced7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_eed7e4c84be4f732e0b0abb11972b41c = $(`<div id="html_eed7e4c84be4f732e0b0abb11972b41c" style="width: 100.0%; height: 100.0%;"><b>CHU Nantes Laennec</b><br>114 interventions</div>`)[0];
+                popup_3477c8f680683b0e63f430642ac5ced7.setContent(html_eed7e4c84be4f732e0b0abb11972b41c);
+            
+        
+
+        circle_marker_31e96494b316a340bcc87fc75b34051e.bindPopup(popup_3477c8f680683b0e63f430642ac5ced7)
+        ;
+
+        
+    
+    
+            circle_marker_31e96494b316a340bcc87fc75b34051e.bindTooltip(
+                `<div>
+                     114 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4ecb2cfe324560aa701772e942f54505 = L.circleMarker(
+                [47.195635507180775, -1.5476071068821908],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.244997998398398, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_1d8a3702d532b8f277bc8c3ddcc53192 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d9c9e8f91c8add088f459c8be7c22ee2 = $(`<div id="html_d9c9e8f91c8add088f459c8be7c22ee2" style="width: 100.0%; height: 100.0%;"><b>Hopital prive du Confluent</b><br>39 interventions</div>`)[0];
+                popup_1d8a3702d532b8f277bc8c3ddcc53192.setContent(html_d9c9e8f91c8add088f459c8be7c22ee2);
+            
+        
+
+        circle_marker_4ecb2cfe324560aa701772e942f54505.bindPopup(popup_1d8a3702d532b8f277bc8c3ddcc53192)
+        ;
+
+        
+    
+    
+            circle_marker_4ecb2cfe324560aa701772e942f54505.bindTooltip(
+                `<div>
+                     39 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aaa6b63a25493711aaacde5680d888c6 = L.circleMarker(
+                [48.10084139074682, -1.713069733790265],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.291502622129181, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_bde3ea437a66dcde08b7566e39e21b90 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7b0c7fb7ef0471fbcba7674023aa9cc2 = $(`<div id="html_7b0c7fb7ef0471fbcba7674023aa9cc2" style="width: 100.0%; height: 100.0%;"><b>La Sagesse</b><br>28 interventions</div>`)[0];
+                popup_bde3ea437a66dcde08b7566e39e21b90.setContent(html_7b0c7fb7ef0471fbcba7674023aa9cc2);
+            
+        
+
+        circle_marker_aaa6b63a25493711aaacde5680d888c6.bindPopup(popup_bde3ea437a66dcde08b7566e39e21b90)
+        ;
+
+        
+    
+    
+            circle_marker_aaa6b63a25493711aaacde5680d888c6.bindTooltip(
+                `<div>
+                     28 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_751615e5d924184d8460af06cf266246 = L.circleMarker(
+                [48.40157021530492, -4.527721389586161],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.916079783099616, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_8c9d8bd936835785b5026e549bbace5d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b6103663214ce33b690d52f6146126f1 = $(`<div id="html_b6103663214ce33b690d52f6146126f1" style="width: 100.0%; height: 100.0%;"><b>CHRU Brest</b><br>35 interventions</div>`)[0];
+                popup_8c9d8bd936835785b5026e549bbace5d.setContent(html_b6103663214ce33b690d52f6146126f1);
+            
+        
+
+        circle_marker_751615e5d924184d8460af06cf266246.bindPopup(popup_8c9d8bd936835785b5026e549bbace5d)
+        ;
+
+        
+    
+    
+            circle_marker_751615e5d924184d8460af06cf266246.bindTooltip(
+                `<div>
+                     35 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a11be51b3324367ef6afa3342b5a76c7 = L.circleMarker(
+                [47.751706319393115, -3.3853361743010066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.916079783099616, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_19703db22be6a9ef3b73c2ff988d7c39 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_add6e16154fefd20b91e7c3af0676c73 = $(`<div id="html_add6e16154fefd20b91e7c3af0676c73" style="width: 100.0%; height: 100.0%;"><b>Clinique mutualiste porte de l'Orient</b><br>35 interventions</div>`)[0];
+                popup_19703db22be6a9ef3b73c2ff988d7c39.setContent(html_add6e16154fefd20b91e7c3af0676c73);
+            
+        
+
+        circle_marker_a11be51b3324367ef6afa3342b5a76c7.bindPopup(popup_19703db22be6a9ef3b73c2ff988d7c39)
+        ;
+
+        
+    
+    
+            circle_marker_a11be51b3324367ef6afa3342b5a76c7.bindTooltip(
+                `<div>
+                     35 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a35b28101472ea1d6c83e3606e2b5aa = L.circleMarker(
+                [46.66820880190382, -1.4119429947303885],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.916079783099616, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_d590260f67b9537042dc54c42c41c2f8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7b9455f511f3c6b56d37b52ebe139de0 = $(`<div id="html_7b9455f511f3c6b56d37b52ebe139de0" style="width: 100.0%; height: 100.0%;"><b>CHD La Roche sur Yon</b><br>35 interventions</div>`)[0];
+                popup_d590260f67b9537042dc54c42c41c2f8.setContent(html_7b9455f511f3c6b56d37b52ebe139de0);
+            
+        
+
+        circle_marker_4a35b28101472ea1d6c83e3606e2b5aa.bindPopup(popup_d590260f67b9537042dc54c42c41c2f8)
+        ;
+
+        
+    
+    
+            circle_marker_4a35b28101472ea1d6c83e3606e2b5aa.bindTooltip(
+                `<div>
+                     35 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_574d58f8f515eeb42315038170b13540 = L.circleMarker(
+                [46.55756560011697, 0.38491339491178683],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.806248474865697, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_c89e7a1e665cfe02cbbb1cce0e5c5648 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_196f15791f9c74b708d63eef562391cc = $(`<div id="html_196f15791f9c74b708d63eef562391cc" style="width: 100.0%; height: 100.0%;"><b>CHU La Miletrie</b><br>164 interventions</div>`)[0];
+                popup_c89e7a1e665cfe02cbbb1cce0e5c5648.setContent(html_196f15791f9c74b708d63eef562391cc);
+            
+        
+
+        circle_marker_574d58f8f515eeb42315038170b13540.bindPopup(popup_c89e7a1e665cfe02cbbb1cce0e5c5648)
+        ;
+
+        
+    
+    
+            circle_marker_574d58f8f515eeb42315038170b13540.bindTooltip(
+                `<div>
+                     164 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7d12ac560c562927d1640acb2cd0eeb0 = L.circleMarker(
+                [49.16808596589337, -0.34474332075486197],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.830951894845301, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_5ecbaf7d50adc2f4bdc55ab751719d68 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2f4a799e3ce054994fd4f481788d34ef = $(`<div id="html_2f4a799e3ce054994fd4f481788d34ef" style="width: 100.0%; height: 100.0%;"><b>Polyclinique du Parc Caen</b><br>34 interventions</div>`)[0];
+                popup_5ecbaf7d50adc2f4bdc55ab751719d68.setContent(html_2f4a799e3ce054994fd4f481788d34ef);
+            
+        
+
+        circle_marker_7d12ac560c562927d1640acb2cd0eeb0.bindPopup(popup_5ecbaf7d50adc2f4bdc55ab751719d68)
+        ;
+
+        
+    
+    
+            circle_marker_7d12ac560c562927d1640acb2cd0eeb0.bindTooltip(
+                `<div>
+                     34 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac51f925bec077c1930f2ab6aad3fec9 = L.circleMarker(
+                [49.198170821188185, -0.3804293165023347],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.830951894845301, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_72fd8579c8b3038c15879f27b3af255a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_615bb3c4f445a9c5b536f8f246aa3d4c = $(`<div id="html_615bb3c4f445a9c5b536f8f246aa3d4c" style="width: 100.0%; height: 100.0%;"><b>Hopital privé Saint Martin</b><br>34 interventions</div>`)[0];
+                popup_72fd8579c8b3038c15879f27b3af255a.setContent(html_615bb3c4f445a9c5b536f8f246aa3d4c);
+            
+        
+
+        circle_marker_ac51f925bec077c1930f2ab6aad3fec9.bindPopup(popup_72fd8579c8b3038c15879f27b3af255a)
+        ;
+
+        
+    
+    
+            circle_marker_ac51f925bec077c1930f2ab6aad3fec9.bindTooltip(
+                `<div>
+                     34 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_94a89859a8be56bf7435d4cf9055d8d5 = L.circleMarker(
+                [45.8127013230397, 1.2358334797827353],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4641016151377544, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_d12b09b0bad7f61f709fb0ced7a07ecb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4f6a411bb39e13d44c808e2ff32c6708 = $(`<div id="html_4f6a411bb39e13d44c808e2ff32c6708" style="width: 100.0%; height: 100.0%;"><b>CHU Dupuytren Limoges</b><br>12 interventions</div>`)[0];
+                popup_d12b09b0bad7f61f709fb0ced7a07ecb.setContent(html_4f6a411bb39e13d44c808e2ff32c6708);
+            
+        
+
+        circle_marker_94a89859a8be56bf7435d4cf9055d8d5.bindPopup(popup_d12b09b0bad7f61f709fb0ced7a07ecb)
+        ;
+
+        
+    
+    
+            circle_marker_94a89859a8be56bf7435d4cf9055d8d5.bindTooltip(
+                `<div>
+                     12 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97212987950668197761872208056348 = L.circleMarker(
+                [49.20511370741066, -0.357466760679382],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.123105625617661, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_61a8633d659ce7ca76f2ea4afcf35492 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4b032fd89457849373dee73fd4b87265 = $(`<div id="html_4b032fd89457849373dee73fd4b87265" style="width: 100.0%; height: 100.0%;"><b>CHU Cote de nacre Caen</b><br>17 interventions</div>`)[0];
+                popup_61a8633d659ce7ca76f2ea4afcf35492.setContent(html_4b032fd89457849373dee73fd4b87265);
+            
+        
+
+        circle_marker_97212987950668197761872208056348.bindPopup(popup_61a8633d659ce7ca76f2ea4afcf35492)
+        ;
+
+        
+    
+    
+            circle_marker_97212987950668197761872208056348.bindTooltip(
+                `<div>
+                     17 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_835377c0c7765926567434a8e35f49fe = L.circleMarker(
+                [48.01893119847003, 0.16193396805126364],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3166247903554, "stroke": true, "weight": 3}
+            ).addTo(map_d66ca88fc491c9111eec3fb7362d568b);
+        
+    
+        var popup_315ffad35f0222aaa06d8dd851974dff = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_038d74e41fc4277f36d9f8cc4f9aee9e = $(`<div id="html_038d74e41fc4277f36d9f8cc4f9aee9e" style="width: 100.0%; height: 100.0%;"><b>Clinique du Pré</b><br>11 interventions</div>`)[0];
+                popup_315ffad35f0222aaa06d8dd851974dff.setContent(html_038d74e41fc4277f36d9f8cc4f9aee9e);
+            
+        
+
+        circle_marker_835377c0c7765926567434a8e35f49fe.bindPopup(popup_315ffad35f0222aaa06d8dd851974dff)
+        ;
+
+        
+    
+    
+            circle_marker_835377c0c7765926567434a8e35f49fe.bindTooltip(
+                `<div>
+                     11 interventions
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
